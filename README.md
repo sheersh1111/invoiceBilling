@@ -1,5 +1,8 @@
 ![chrome-capture-2023-10-14 (1)](https://github.com/sheersh1111/invoiceBilling/assets/106367218/31245890-f022-46fa-afa3-ab8c9deca845)
 
+# Description(Flow)
+ When the Login is successful , the email associated with login is used for fetching api for invoices (for that particular mail) and details are given in the format of list.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
