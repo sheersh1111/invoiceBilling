@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 const clientId="333288399917-3a10ppd508cr3oq1n2s4j88m1ijbl0np.apps.googleusercontent.com";
 
-function Logout({email,setEmail}){
+function Logout({setEmail}){
     const history = useHistory();
 
     const onSuccess= (res)=>{

@@ -62,6 +62,9 @@ console.log(invoices,email)
       }}>
         Get Details on Mail
       </Button>
+      <Button variant="outline-primary" onClick={()=>history.push('/logout')} style={{marginLeft:'2vw'}}>
+        Logout
+      </Button>
     </div>
   );
 }

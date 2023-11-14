@@ -43,6 +43,8 @@ function App() {
   return (
     <div className="App bg-light">
       <ToastContainer />
+      <h5>Welcome</h5>
+      <p>Go to /login url for logging in</p>
       <Router>
       <div className="App">
         <Switch>
