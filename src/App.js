@@ -46,7 +46,7 @@ function App() {
       <Router>
       <div className="App">
         <Switch>
-          <Route path="/login">
+          <Route path="/">
             <Login setEmail={setEmail} />
           </Route>
           <Route path="/logout">

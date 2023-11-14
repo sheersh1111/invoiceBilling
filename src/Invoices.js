@@ -9,7 +9,7 @@ function Inovices({email}) {
   const history = useHistory();
 
   if(email===null){
-    history.push('/login')
+    history.push('/')
   }
 console.log(invoices,email)
 

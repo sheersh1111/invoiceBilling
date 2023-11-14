@@ -9,7 +9,7 @@ function Logout({email,setEmail}){
     const onSuccess= (res)=>{
         console.log("Logout Success Current User: ",res);
         setEmail(null)
-        history.push('/login')
+        history.push('/')
     }
     
     return(
