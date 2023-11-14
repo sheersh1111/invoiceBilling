@@ -28,6 +28,11 @@ console.log(invoices,email)
 
   return (
     <div className="container mt-4 bg-light">
+      <Button variant="outline-primary" style={{position:'absolute',right:'9vw',top:'5vh'}}
+      onClick={()=>{
+        history.push('/create')
+      }}
+      >Create New Invoice</Button>
       <h1 className="mb-4 text-primary">Invoices</h1>
       <table className="table">
         <thead className="thead-dark">

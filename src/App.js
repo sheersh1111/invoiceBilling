@@ -6,6 +6,10 @@ import Logout from "./Logout";
 import { gapi } from "gapi-script";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Invoices from './Invoices'
+import CreateInvoice from "./CreateInvoice";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const clientId="333288399917-3a10ppd508cr3oq1n2s4j88m1ijbl0np.apps.googleusercontent.com";
 
@@ -38,6 +42,7 @@ function App() {
   console.log(email)
   return (
     <div className="App bg-light">
+      <ToastContainer />
       <Router>
       <div className="App">
         <Switch>
@@ -49,6 +54,9 @@ function App() {
           </Route>
           <Route path="/invoices">
             <Invoices email={email}/>
+          </Route>
+          <Route path='/create'>
+            <CreateInvoice/>
           </Route>
         </Switch>
       </div>
